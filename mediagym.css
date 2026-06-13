@@ -1,0 +1,260 @@
+
+
+@media only screen and (min-width :200px) and (max-width:575px) {
+    nav{
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: 10px;
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        right: -250px;  
+        width: 250px;
+        height: 100vh;
+        background: black;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 80px;
+        transition: 0.4s;
+        z-index: 999;
+    }
+    .btn{
+        margin-left: 80px;
+    }
+    .menu.active{
+        right: 0;  
+    }
+    
+    .titlebox ul{
+        flex-direction: column;
+        border: none;
+        text-align: center;
+    }
+    
+    .js{
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+        z-index: 1000;
+        
+    }
+    .background{
+        height: 30vh;
+    }
+    .background .text{
+        font-size: 4vmin;
+    }
+    .background .apply{
+        font-size: 3vmin;
+
+    }
+    .aboutus{
+        font-size: 20px;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .ab_img{
+        width: 30vmin;
+        height: 30vmin;
+    }
+    .about p{
+        font-size: 10px;
+        margin: 10px;
+        margin-top: 0%;
+    }
+
+    .aboutus{
+        font-size: 20px;
+    }
+
+    .program{
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(4,1fr);
+        height: 500px;
+    
+    }
+    .program .image .out{
+        width: 100px;
+    }
+    .program h3{
+        font-size: 10px;
+    }
+    .exp{
+        font-size: 20px;
+        
+    }
+    .trainer .role .sir{
+        width: 200px;
+    }
+    .trainer h3{
+        font-size: 12px;
+    }
+    .trainer{
+        flex-direction: column;
+        gap:20px
+    }
+
+    .member{
+        height: 450px;
+        
+    }
+
+    .buy{
+        font-size: 20px;
+    }
+    .member .plan{
+        height: 120px;
+        width: 150px;
+       
+
+    }
+    .member .plan h3{
+        font-size: 10px;
+    }
+    .info{
+        margin: 30px;
+        padding: 10px;
+        height: 500px;
+        gap: 6px;
+        border-radius: 20px;
+        height: 500px;
+        padding-top: 40px;
+    }
+    .info .detail{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .last{
+        height:500px;;
+        padding: 20px;
+    }
+    a .gif{
+        width: 60px;
+    }
+    .robortt .robort{
+        font-size:10px ;
+        bottom: 60px;
+    }
+    .js{
+        display: block;
+    }
+
+    .last{
+        font-size: 12px;
+        height: 450px;
+    }
+}
+
+
+@media only screen and (min-width :576px) and (max-width:991px){
+    nav{
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: 10px;
+    }
+
+
+    .background{
+        height: 30vh;
+    }
+    .background .text{
+        font-size: 4vmin;
+    }
+    .background .apply{
+        font-size: 3vmin;
+
+    }
+    .aboutus{
+        font-size: 20px;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .ab_img{
+        width: 30vmin;
+        height: 30vmin;
+    }
+    .about p{
+        font-size: 20px;
+        margin: 10px;
+        margin-top: 0%;
+    }
+
+    .aboutus{
+        font-size: 20px;
+    }
+
+    .program{
+        height: 40vh;
+    }
+    .exp{
+        font-size: 20px;
+        
+    }
+    .trainer{
+        gap:10px
+    }
+    .buy{
+        font-size: 20px;
+    }
+    .info{
+        margin: 20px;
+        height: 500px;
+        gap: 6px;
+        border-radius: 20px;
+    }
+    .info .detail{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .last{
+        height:500px;;
+        padding: 20px;
+    }
+    a .gif{
+        width: 60px;
+    }
+    .robortt .robort{
+        font-size:10px ;
+        bottom: 60px;
+    }
+    .member{
+        height: 40vh;
+        
+    }
+    .member .plan{
+        width: 200px;
+        height: 230px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
