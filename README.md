@@ -60,7 +60,9 @@ IMAGES USED
 ## PROJECT PREVIEW
 
 ### HOME SECTION
-<img width="1365" height="727" alt="Screenshot 2026-06-13 at 19-10-56 SHARPER GYM" src="https://github.com/user-attachments/assets/bf0c9b09-e072-463f-a4f5-c63e8ad35f6d" />
+
+<img width="1322" height="726" alt="Screenshot 2026-06-13 at 19-55-36 SHARPER GYM" src="https://github.com/user-attachments/assets/1438d838-344f-4dab-9a62-e1cba8a78625" />
+
 
 
 ## PROJECT OBJECTIVE
