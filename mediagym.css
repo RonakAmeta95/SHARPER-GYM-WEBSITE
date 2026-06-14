@@ -1,6 +1,10 @@
 
 
 @media only screen and (min-width :200px) and (max-width:575px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    
     nav{
         margin: 0%;
         padding: 0%;
@@ -121,10 +125,12 @@
     }
     .info{
         border-radius: 20px;
-        width: 315px;
+        width: 100%;
+        max-width: 346px;
+        padding: 17px;
     }
     .info input,select,textarea, .info button{
-        width: 235px;    
+        width: 306px;    
     }
     .info .detail{
         font-size: 20px;
@@ -219,11 +225,11 @@
         padding: 20px;
     }
     a .gif{
-        width: 60px;
+        width: 90px;
     }
     .robortt .robort{
         font-size:10px ;
-        bottom: 60px;
+        bottom: 90px;
     }
     .member{
         height: 40vh;
@@ -236,6 +242,5 @@
     }
     
 }
-
 
 
